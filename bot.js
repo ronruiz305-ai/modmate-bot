@@ -13,7 +13,7 @@ const CONFIG = {
   ANTHROPIC_API_KEY: process.env.ANTHROPIC_API_KEY,
   TWITCH_BOT_USERNAME: process.env.TWITCH_BOT_USERNAME,
   TWITCH_OAUTH_TOKEN: process.env.TWITCH_OAUTH_TOKEN,
-  TWITCH_CHANNEL: process.env.TWITCH_CHANNEL,
+  TWITCH_CHANNEL: process.env.thebossmanron,
 };
 
 // ============================================================
