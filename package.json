@@ -1,7 +1,7 @@
 {
-  "name": "stream-moderator",
+  "name": "modmate-bot",
   "version": "1.0.0",
-  "description": "AI-powered Twitch chat moderator using Claude",
+  "description": "AI-powered Twitch chat moderator",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
