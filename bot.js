@@ -10,10 +10,10 @@ const Anthropic = require("@anthropic-ai/sdk");
 //  STEP 1 — Paste your keys here
 // ============================================================
 const CONFIG = {
-  ANTHROPIC_API_KEY: "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",
-  TWITCH_BOT_USERNAME: "thebossmanron ",  // the account the bot will run as
-  TWITCH_OAUTH_TOKEN: "oauth:cr8hsvluy46w6t6nowe5cdco7ofe6i", // see README.md to get this
-  TWITCH_CHANNEL: "thebossmanron",          // the channel to moderate (no #)
+  ANTHROPIC_API_KEY: process.env.ANTHROPIC_API_KEY,
+  TWITCH_BOT_USERNAME: process.env.TWITCH_BOT_USERNAME,
+  TWITCH_OAUTH_TOKEN: process.env.TWITCH_OAUTH_TOKEN,
+  TWITCH_CHANNEL: process.env.TWITCH_CHANNEL,
 };
 
 // ============================================================
