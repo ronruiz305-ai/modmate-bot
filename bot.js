@@ -180,3 +180,10 @@ client.on("disconnected", (reason) => {
 });
 
 client.connect().catch(console.error);
+process.on('uncaughtException', (err) => {
+  console.error('Uncaught error:', err);
+});
+
+process.on('unhandledRejection', (err) => {
+  console.error('Unhandled rejection:', err);
+});
