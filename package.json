@@ -1,0 +1,13 @@
+{
+  "name": "stream-moderator",
+  "version": "1.0.0",
+  "description": "AI-powered Twitch chat moderator using Claude",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "tmi.js": "^1.8.5",
+    "@anthropic-ai/sdk": "^0.24.0"
+  }
+}
